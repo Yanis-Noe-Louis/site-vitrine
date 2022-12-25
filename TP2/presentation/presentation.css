@@ -1,0 +1,88 @@
+@font-face {
+    font-family: Unown;
+    src: url("../../Font/Unown.ttf");
+}
+
+
+.logo{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.logo h1{
+    font-size: 250px;
+    margin-bottom: 30px;
+}
+
+#slogan{
+    display: flex;
+    font-family: Unown;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+
+
+#logo-centre{
+    height: 300px;
+    width: 300px;
+}
+
+h4{
+    width: 50%;
+    height: 30%;
+    font-size: 40px;
+    margin: 60px;
+    margin-top: 80px;
+    padding: 30px;
+    border-radius: 75px;
+    border: 3px solid red;
+    text-align: center;
+}
+
+h2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.text{
+    width: 60%;
+    height: 30%;
+    margin-bottom: 100px;
+    font-size: 30px;
+    padding: 50px;
+    border: 3px solid orange;
+    border-radius: 75px;
+    
+}
+
+
+.reveal{
+    opacity: 0;
+    transform: translateY(-50);
+}
+
+.reveal-visible{
+    opacity: 1;
+    transform: translateY(0);
+    transition: 2s;
+}
+
+#last-txt {
+    padding-bottom: 50px;
+}
